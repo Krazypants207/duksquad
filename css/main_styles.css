@@ -1,0 +1,63 @@
+#main_h1{
+  color: #383838;
+  background: #ffffff;
+  padding:10px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  }
+
+*{
+  background-color: #f4f4f4;
+  color: #383838;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2px;
+}
+
+#youtube_link{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #8c2c2c;
+}
+
+.gallery_photo{
+  border-radius: 10px;
+}
+
+.yt_friends{
+  border-radius: 100%;
+  height: 100px;
+  float: left;
+}
+
+#yt_friend_1:hover{
+  padding-top: 5px;
+}
+
+.wrapper{
+  height: 105px;
+  position: relative;
+  display: inline-block;
+}
+
+#yt_friend_2:hover{
+  padding-top: 5px;
+}
+
+#yt_friend_3:hover{
+  padding-top: 5px;
+}
+
+#yt_friend_4:hover{
+  padding-top: 5px;
+}
+
+#yt_friend_5:hover{
+  padding-top: 5px;
+}
