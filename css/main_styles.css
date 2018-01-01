@@ -14,8 +14,10 @@
   padding: 2px;
 }
 
-#youtube_link{
-
+.past-vid{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 a{
