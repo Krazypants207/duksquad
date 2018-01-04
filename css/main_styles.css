@@ -14,11 +14,13 @@
   padding: 2px;
 }
 
+/*
 .past-vid{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+*/
 
 a{
   text-decoration: none;
