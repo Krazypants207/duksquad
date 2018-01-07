@@ -65,3 +65,22 @@ a:hover{
 #yt_friend_5:hover{
   padding-top: 5px;
 }
+
+#newsletter{
+  width: 180px;
+  height: 40px;
+  background-color: #757575;
+  border-radius: 10px;
+  line-height: 1px;
+  text-align: center;
+}
+
+#newsletter > h3,
+#newsletter > h3 > a{
+  background-color: #757575;
+  color: #f4f4f4;
+}
+
+#newsletter > h3 > a:hover{
+  color: #8c2c2c;
+}
