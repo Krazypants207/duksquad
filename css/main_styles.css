@@ -84,3 +84,22 @@ a:hover{
 #newsletter > h3 > a:hover{
   color: #FF0000;
 }
+
+#past_videos_link{
+  width: 250px;
+  height: 40px;
+  background-color: #0D00FF;
+  border-radius: 10px;
+  line-height: 1px;
+  text-align: center;
+}
+
+#past_videos_link > h3,
+#past_videos_link > h3 > a{
+  background-color: #0D00FF;
+  color: #f4f4f4;
+}
+
+#past_videos_link > h3 > a:hover{
+  color: #FF0000;
+}
