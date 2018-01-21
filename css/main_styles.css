@@ -7,7 +7,7 @@
   font-family: 'Oswald', sans-serif;
   }
 
-*{
+body {
   background-color: #f4f4f4;
   color: #383838;
   font-family: 'Quicksand', sans-serif;
@@ -102,4 +102,22 @@ a:hover{
 
 #past_videos_link > h3 > a:hover{
   color: #FF0000;
+}
+
+.barrier{
+  border:solid #383838;
+}
+
+.btn-primary {
+  background-color: #0D00FF;
+  border-color: #0D00FF;
+}
+
+.btn-primary:hover {
+  background-color:#007bff;
+  border-color: #007bff;
+}
+
+.duk-dropdown {
+  display: inline-block;
 }
