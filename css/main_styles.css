@@ -1,17 +1,20 @@
 #main_h1{
   color: #383838;
   background: #ffffff;
-  padding:10px;
   text-align: center;
-  border-radius: 5px;
   font-family: 'Oswald', sans-serif;
+  width: 100vw;
   }
+
+.container-fluid.header {
+  padding: 0;
+}
 
 body {
   background-color: #f4f4f4;
   color: #383838;
   font-family: 'Quicksand', sans-serif;
-  padding: 2px;
+  margin-top: 175px;
 }
 
 /*
@@ -124,4 +127,93 @@ a:hover{
 
 .dropdown-menu {
   width: 385px;
+}
+
+.locations_link{
+  border-radius: 100px;
+}
+
+.custom-navbar{
+
+}
+
+.navbar-brand{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 25px;
+  text-align: center;
+  margin: auto;
+  height: 50px;
+}
+
+.navbar-dark{
+  height: 120px;
+  background-image: linear-gradient(#f4f4f4 50%, #000000 50%);
+}
+
+#about_us{
+  background-color: ;
+}
+
+.profile-pict{
+  width: 120px;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.navbar-nav{
+  padding-top: 56px;
+}
+
+.navbar{
+  margin-bottom: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+  margin-top: 56px;
+  border: none;
+}
+
+.navbar-dark .navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 244, 244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.collapse.show {
+  margin-top: 16px;
+  background: rgba(0,0,0,.8);
+}
+
+.ml-auto, .mr-auto {
+  width: calc(50% - 50px);
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: #f4f4f4 !important;
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255,.5) !important;
+}
+
+@media (max-width:991px) {
+  .navbar-nav {
+    padding: 0 0 0 25px;
+  }
+  #last-link {
+    margin-bottom: 16px;
+  }
+  .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ml-auto, .mr-auto {
+    width: 100%;
+  }
 }

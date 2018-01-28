@@ -5,8 +5,8 @@
   <title>Duk Squad Home Page</title>
   <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="imgs/favicon-16x16.png" sizes="16x16" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/main_styles.css">
@@ -14,63 +14,65 @@
   <script src="js/duk.js"></script>
 </head>
 <body>
-
-  <h1 id="main_h1">THE DUK SQUAD</h1>
-
-  <br>
-
-  <div class="container-fluid">
-    <h2>About Us:</h2>
-    <p>The Duk Squad (misspelled on purpose) originally started in 2016.  It all started with a game called Terraria.  There was an Easter egg where a duck would quack like a human.  Our founder, PrincePorky1991, is also known as TEG, or The Endermite Guardian.  Porky made a Roblox group and called it the Duk Squad, and the Duk Squad as we know it was born.  But, that's not the whole story; the Duk Squad got bigger, much bigger.  So, as a means of communication between all the members, the Duk Squad Discord Server was made.  It didn't catch on, not many people joined the Discord Server, but we're still updating it and responding to questions.  We also post when we come out with new videos on our YouTube channel!  A link to join will be provided in the "LOCATIONS" section.</p>
-  </div>
-
-  <div class="container-fluid">
-  <h2>Locations:</h2>
-    <h3 id="youtube_link">Youtube: <a href="https://www.youtube.com/channel/UCLAAKC_WPhQbOWDNVMvh5zg/featured" target="_blank">http://bit.ly/2jcKTnc</a></h3>
-
-    <h3 id="discord_link">Discord: <a href="https://discord.gg/CguXWS4" target="_blank">https://discord.gg/CguXWS4</a></h3>
-
-    <h3 id="steam_link">Steam: <a href="http://steamcommunity.com/groups/duxsquad#" target="_blank">http://bit.ly/2BFWtPD</a></h3>
-
-    <h3 id="teg_link">The Endermite Guardian Website: <a href="https://princeporky1991.wixsite.com/teghub" target="_blank">http://bit.ly/2zJJaPl</a></h3>
-
-    <h3 id="roblox_link">Roblox: <a href="https://www.roblox.com/My/Groups.aspx?gid=3139794" target="_blank">https://www.roblox.com/My/Groups.aspx?gid=3139794</a></h3>
-  </div>
-
-  <br>
-  <div class="container-fluid">
-    <h2>Gallery:</h2>
-
-      <!-- Button trigger modal -->
-    <img src="imgs/I want you duk.png" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-    <img src="imgs/discordduck.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-    <img src="imgs/image.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-    <img src="imgs/DukBeanie.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-    <img src="imgs/Duk Squad Logo 2.0.png" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-    <img src="imgs/Chicken.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
-
-    <!-- Modal -->
-    <div class="modal fade" id="gallery_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img src="" class="img-fluid" id="modal-img">
-          </div>
-        </div>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark custom-navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a href="index.html" class="navbar-brand center-block"><img src="imgs/Duk Squad Logo 2.0.png" class="center-block profile-pict"></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Video Shout Outs</a>
+          </li>
+          <li class="nav-item" id="last-link">
+            <a class="nav-link" target="_blank" href="duk_squad_newsletter_1.pdf">Newsletter</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </header>
+
+  <div class="container text-center">
+    <h2>Locations:</h2>
+      <div class="text-center">
+
+        <a href="http://steamcommunity.com/groups/duxsquad#" target="_blank"><img src="imgs/steam_logo.png" height="100px" width="100px" class="locations_link"></a>
+
+        <a href="https://princeporky1991.wixsite.com/teghub" target="_blank"><img src="imgs/teg_logo.jpg" height="100px" width="100px" class="locations_link"></a>
+
+        <a href="https://discord.gg/CguXWS4" target="_blank"><img src="imgs/discord_logo.png" height="100px" width="100px" class="locations_link"></a>
+
+        <a href="https://www.youtube.com/channel/UCLAAKC_WPhQbOWDNVMvh5zg/featured" target="_blank"><img src="imgs/youtube_logo.png" height="100px" width="100px" class="locations_link"></a>
+
+        <a href="https://www.roblox.com/My/Groups.aspx?gid=3139794" target="_blank"><img src="imgs/roblox_logo.jpg" height="100px" width="100px" class="locations_link"></a>
+      </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="text-center">
+        <!-- Button trigger modal -->
+      <img src="imgs/I want you duk.png" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
+      <img src="imgs/discordduck.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
+      <img src="imgs/image.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
+      <img src="imgs/DukBeanie.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
+      <img src="imgs/Duk Squad Logo 2.0.png" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
+      <img src="imgs/Chicken.jpg" height="200px" width="150px" class="gallery_photo" data-toggle="modal" data-target="#gallery_modal">
     </div>
-
-
   </div>
 
   <br>
 
-  <div class="container-fluid">
+  <div class="container text-center">
     <h2>Video Shout Out:</h2>
     <br>
     <h3>Chicken Lives Matter:</h3>
@@ -79,27 +81,14 @@
 
   <br>
 
+  <br>
+
   <div class="container-fluid">
-    <a href="past_videos.html" target="_blank">
-      <button type="button" class="btn btn-primary btn-lg">
-        Past Video Shout Outs
-      </button>
-    </a>
   </div>
 
   <br>
 
-  <div class="container-fluid">
-    <a target="_blank" href="duk_squad_newsletter_1.pdf">
-      <button class="btn btn-primary btn-lg">
-        Read Newsletter
-      </button>
-    </a>
-  </div>
-
-  <br>
-
-  <div class="container-fluid">
+  <div class="container text-center">
     <h3>Alliances:</h3>
     <p>The Parrot Posse, The Peacock Patrol, The Coot Coalition, The Chicken Congregation, The Eagle Association, The Pigeon Pooping Legion and The Seagull Society</p>
     <br>
@@ -159,20 +148,35 @@
 
   <br>
 
-  <div class="container-fluid">
+  <div class="container text-center">
     <h3>Online Members:</h3>
     <iframe src="https://discordapp.com/widget?id=310887374726889483&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
   </div>
 
   <br>
 
-  <div class="container-fluid">
+  <div class="container text-center">
     <h3>Announcements:</h3>
     <h3>New game called Duk Ball!  Click <a href="https://www.youtube.com/watch?v=tACg88bvC2Y&t" target="_blank">here</a></h3>
   </div>
 
-  <div class="container-fluid">
+  <div class="container text-center">
     <p>&copy; 2018 Duk Squad</p>
   </div>
+  <!-- Modal -->
+    <div class="modal fade" id="gallery_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="img-fluid" id="modal-img">
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
