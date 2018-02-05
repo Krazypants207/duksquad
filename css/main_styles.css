@@ -14,7 +14,7 @@ body {
   background-color: #f4f4f4;
   color: #383838;
   font-family: 'Quicksand', sans-serif;
-  margin-top: 175px;
+  margin-top: 120px;
 }
 
 /*
@@ -202,6 +202,27 @@ a:hover{
   color: rgba(255,255,255,.5) !important;
 }
 
+
+.divider{
+  border-top: solid 1px #E0E0E0;
+  width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+}
+
+#locations{
+  background: url(http://duksquad.com/imgs/locations.jpg) fixed center center no-repeat;
+  padding-bottom: 30px;
+}
+
+.card {
+  margin-top: 80px;
+  width: 12rem;
+}
+
+#images {
+  margin-top: 40px;
+}
+
 @media (max-width:991px) {
   .navbar-nav {
     padding: 0 0 0 25px;
@@ -214,6 +235,9 @@ a:hover{
     margin-right: 0;
   }
   .ml-auto, .mr-auto {
+    width: 100%;
+  }
+  .card {
     width: 100%;
   }
 }
